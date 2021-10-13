@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(person-touching-open-macbook-on-table-839465.jpg);
+    background-size: cover;
+}
+
+form {
+    text-align: center;
+    margin-top: 70px;
+}
+
+input {
+    width: 400px;
+    height: 40px;
+    display: block;
+    margin: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+}
+
+button {
+    width: 400px;
+    height: 40px;
+    font-size: 15px;
+    background-color: blue;
+    border: none;
+    color: white;
+    margin-top: 15px;
+}
+
+form h1 {
+    margin-bottom: 50px;
+    color: white;
+}
+
+::placeholder{
+    color: white;
+}
